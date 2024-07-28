@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-image: url('s1.jpg');
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 4px; 
+    font-size: 14px; 
+    border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.1s ease, box-shadow 0.3s ease; 
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0);
+    
+  }
+  
+button:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.4);
+
+  }
